@@ -1,0 +1,706 @@
+                              1 ;--------------------------------------------------------
+                              2 ; File Created by SDCC : free open source ANSI-C Compiler
+                              3 ; Version 3.5.5 #9498 (CYGWIN)
+                              4 ;--------------------------------------------------------
+                              5 	.module tileset_kcpc
+                              6 	.optsdcc -mz80
+                              7 	
+                              8 ;--------------------------------------------------------
+                              9 ; Public variables in this module
+                             10 ;--------------------------------------------------------
+                             11 	.globl _pre_tileset_kcpc_59
+                             12 	.globl _pre_tileset_kcpc_58
+                             13 	.globl _pre_tileset_kcpc_57
+                             14 	.globl _pre_tileset_kcpc_56
+                             15 	.globl _pre_tileset_kcpc_55
+                             16 	.globl _pre_tileset_kcpc_54
+                             17 	.globl _pre_tileset_kcpc_53
+                             18 	.globl _pre_tileset_kcpc_52
+                             19 	.globl _pre_tileset_kcpc_51
+                             20 	.globl _pre_tileset_kcpc_50
+                             21 	.globl _pre_tileset_kcpc_49
+                             22 	.globl _pre_tileset_kcpc_48
+                             23 	.globl _pre_tileset_kcpc_47
+                             24 	.globl _pre_tileset_kcpc_46
+                             25 	.globl _pre_tileset_kcpc_45
+                             26 	.globl _pre_tileset_kcpc_44
+                             27 	.globl _pre_tileset_kcpc_43
+                             28 	.globl _pre_tileset_kcpc_42
+                             29 	.globl _pre_tileset_kcpc_41
+                             30 	.globl _pre_tileset_kcpc_40
+                             31 	.globl _pre_tileset_kcpc_39
+                             32 	.globl _pre_tileset_kcpc_38
+                             33 	.globl _pre_tileset_kcpc_37
+                             34 	.globl _pre_tileset_kcpc_36
+                             35 	.globl _pre_tileset_kcpc_35
+                             36 	.globl _pre_tileset_kcpc_34
+                             37 	.globl _pre_tileset_kcpc_33
+                             38 	.globl _pre_tileset_kcpc_32
+                             39 	.globl _pre_tileset_kcpc_31
+                             40 	.globl _pre_tileset_kcpc_30
+                             41 	.globl _pre_tileset_kcpc_29
+                             42 	.globl _pre_tileset_kcpc_28
+                             43 	.globl _pre_tileset_kcpc_27
+                             44 	.globl _pre_tileset_kcpc_26
+                             45 	.globl _pre_tileset_kcpc_25
+                             46 	.globl _pre_tileset_kcpc_24
+                             47 	.globl _pre_tileset_kcpc_23
+                             48 	.globl _pre_tileset_kcpc_22
+                             49 	.globl _pre_tileset_kcpc_21
+                             50 	.globl _pre_tileset_kcpc_20
+                             51 	.globl _pre_tileset_kcpc_19
+                             52 	.globl _pre_tileset_kcpc_18
+                             53 	.globl _pre_tileset_kcpc_17
+                             54 	.globl _pre_tileset_kcpc_16
+                             55 	.globl _pre_tileset_kcpc_15
+                             56 	.globl _pre_tileset_kcpc_14
+                             57 	.globl _pre_tileset_kcpc_13
+                             58 	.globl _pre_tileset_kcpc_12
+                             59 	.globl _pre_tileset_kcpc_11
+                             60 	.globl _pre_tileset_kcpc_10
+                             61 	.globl _pre_tileset_kcpc_09
+                             62 	.globl _pre_tileset_kcpc_08
+                             63 	.globl _pre_tileset_kcpc_07
+                             64 	.globl _pre_tileset_kcpc_06
+                             65 	.globl _pre_tileset_kcpc_05
+                             66 	.globl _pre_tileset_kcpc_04
+                             67 	.globl _pre_tileset_kcpc_03
+                             68 	.globl _pre_tileset_kcpc_02
+                             69 	.globl _pre_tileset_kcpc_01
+                             70 	.globl _pre_tileset_kcpc_00
+                             71 	.globl _pre_tileset
+                             72 ;--------------------------------------------------------
+                             73 ; special function registers
+                             74 ;--------------------------------------------------------
+                             75 ;--------------------------------------------------------
+                             76 ; ram data
+                             77 ;--------------------------------------------------------
+                             78 	.area _DATA
+                             79 ;--------------------------------------------------------
+                             80 ; ram data
+                             81 ;--------------------------------------------------------
+                             82 	.area _INITIALIZED
+                             83 ;--------------------------------------------------------
+                             84 ; absolute external ram data
+                             85 ;--------------------------------------------------------
+                             86 	.area _DABS (ABS)
+                             87 ;--------------------------------------------------------
+                             88 ; global & static initialisations
+                             89 ;--------------------------------------------------------
+                             90 	.area _HOME
+                             91 	.area _GSINIT
+                             92 	.area _GSFINAL
+                             93 	.area _GSINIT
+                             94 ;--------------------------------------------------------
+                             95 ; Home
+                             96 ;--------------------------------------------------------
+                             97 	.area _HOME
+                             98 	.area _HOME
+                             99 ;--------------------------------------------------------
+                            100 ; code
+                            101 ;--------------------------------------------------------
+                            102 	.area _CODE
+                            103 	.area _CODE
+   0000                     104 _pre_tileset:
+   0000r78r00               105 	.dw _pre_tileset_kcpc_00
+   0002r80r00               106 	.dw _pre_tileset_kcpc_01
+   0004r88r00               107 	.dw _pre_tileset_kcpc_02
+   0006r90r00               108 	.dw _pre_tileset_kcpc_03
+   0008r98r00               109 	.dw _pre_tileset_kcpc_04
+   000ArA0r00               110 	.dw _pre_tileset_kcpc_05
+   000CrA8r00               111 	.dw _pre_tileset_kcpc_06
+   000ErB0r00               112 	.dw _pre_tileset_kcpc_07
+   0010rB8r00               113 	.dw _pre_tileset_kcpc_08
+   0012rC0r00               114 	.dw _pre_tileset_kcpc_09
+   0014rC8r00               115 	.dw _pre_tileset_kcpc_10
+   0016rD0r00               116 	.dw _pre_tileset_kcpc_11
+   0018rD8r00               117 	.dw _pre_tileset_kcpc_12
+   001ArE0r00               118 	.dw _pre_tileset_kcpc_13
+   001CrE8r00               119 	.dw _pre_tileset_kcpc_14
+   001ErF0r00               120 	.dw _pre_tileset_kcpc_15
+   0020rF8r00               121 	.dw _pre_tileset_kcpc_16
+   0022r00r01               122 	.dw _pre_tileset_kcpc_17
+   0024r08r01               123 	.dw _pre_tileset_kcpc_18
+   0026r10r01               124 	.dw _pre_tileset_kcpc_19
+   0028r18r01               125 	.dw _pre_tileset_kcpc_20
+   002Ar20r01               126 	.dw _pre_tileset_kcpc_21
+   002Cr28r01               127 	.dw _pre_tileset_kcpc_22
+   002Er30r01               128 	.dw _pre_tileset_kcpc_23
+   0030r38r01               129 	.dw _pre_tileset_kcpc_24
+   0032r40r01               130 	.dw _pre_tileset_kcpc_25
+   0034r48r01               131 	.dw _pre_tileset_kcpc_26
+   0036r50r01               132 	.dw _pre_tileset_kcpc_27
+   0038r58r01               133 	.dw _pre_tileset_kcpc_28
+   003Ar60r01               134 	.dw _pre_tileset_kcpc_29
+   003Cr68r01               135 	.dw _pre_tileset_kcpc_30
+   003Er70r01               136 	.dw _pre_tileset_kcpc_31
+   0040r78r01               137 	.dw _pre_tileset_kcpc_32
+   0042r80r01               138 	.dw _pre_tileset_kcpc_33
+   0044r88r01               139 	.dw _pre_tileset_kcpc_34
+   0046r90r01               140 	.dw _pre_tileset_kcpc_35
+   0048r98r01               141 	.dw _pre_tileset_kcpc_36
+   004ArA0r01               142 	.dw _pre_tileset_kcpc_37
+   004CrA8r01               143 	.dw _pre_tileset_kcpc_38
+   004ErB0r01               144 	.dw _pre_tileset_kcpc_39
+   0050rB8r01               145 	.dw _pre_tileset_kcpc_40
+   0052rC0r01               146 	.dw _pre_tileset_kcpc_41
+   0054rC8r01               147 	.dw _pre_tileset_kcpc_42
+   0056rD0r01               148 	.dw _pre_tileset_kcpc_43
+   0058rD8r01               149 	.dw _pre_tileset_kcpc_44
+   005ArE0r01               150 	.dw _pre_tileset_kcpc_45
+   005CrE8r01               151 	.dw _pre_tileset_kcpc_46
+   005ErF0r01               152 	.dw _pre_tileset_kcpc_47
+   0060rF8r01               153 	.dw _pre_tileset_kcpc_48
+   0062r00r02               154 	.dw _pre_tileset_kcpc_49
+   0064r08r02               155 	.dw _pre_tileset_kcpc_50
+   0066r10r02               156 	.dw _pre_tileset_kcpc_51
+   0068r18r02               157 	.dw _pre_tileset_kcpc_52
+   006Ar20r02               158 	.dw _pre_tileset_kcpc_53
+   006Cr28r02               159 	.dw _pre_tileset_kcpc_54
+   006Er30r02               160 	.dw _pre_tileset_kcpc_55
+   0070r38r02               161 	.dw _pre_tileset_kcpc_56
+   0072r40r02               162 	.dw _pre_tileset_kcpc_57
+   0074r48r02               163 	.dw _pre_tileset_kcpc_58
+   0076r50r02               164 	.dw _pre_tileset_kcpc_59
+   0078                     165 _pre_tileset_kcpc_00:
+   0078 D5                  166 	.db #0xD5	; 213
+   0079 FF                  167 	.db #0xFF	; 255
+   007A 03                  168 	.db #0x03	; 3
+   007B FF                  169 	.db #0xFF	; 255
+   007C 03                  170 	.db #0x03	; 3
+   007D 03                  171 	.db #0x03	; 3
+   007E 03                  172 	.db #0x03	; 3
+   007F 03                  173 	.db #0x03	; 3
+   0080                     174 _pre_tileset_kcpc_01:
+   0080 FF                  175 	.db #0xFF	; 255
+   0081 EA                  176 	.db #0xEA	; 234
+   0082 FF                  177 	.db #0xFF	; 255
+   0083 FF                  178 	.db #0xFF	; 255
+   0084 03                  179 	.db #0x03	; 3
+   0085 FF                  180 	.db #0xFF	; 255
+   0086 03                  181 	.db #0x03	; 3
+   0087 FF                  182 	.db #0xFF	; 255
+   0088                     183 _pre_tileset_kcpc_02:
+   0088 FF                  184 	.db #0xFF	; 255
+   0089 FF                  185 	.db #0xFF	; 255
+   008A FF                  186 	.db #0xFF	; 255
+   008B FF                  187 	.db #0xFF	; 255
+   008C 03                  188 	.db #0x03	; 3
+   008D 03                  189 	.db #0x03	; 3
+   008E 03                  190 	.db #0x03	; 3
+   008F 03                  191 	.db #0x03	; 3
+   0090                     192 _pre_tileset_kcpc_03:
+   0090 FB                  193 	.db #0xFB	; 251
+   0091 F3                  194 	.db #0xF3	; 243
+   0092 F3                  195 	.db #0xF3	; 243
+   0093 A2                  196 	.db #0xA2	; 162
+   0094 F3                  197 	.db #0xF3	; 243
+   0095 00                  198 	.db #0x00	; 0
+   0096 AA                  199 	.db #0xAA	; 170
+   0097 00                  200 	.db #0x00	; 0
+   0098                     201 _pre_tileset_kcpc_04:
+   0098 00                  202 	.db #0x00	; 0
+   0099 51                  203 	.db #0x51	; 81	'Q'
+   009A 00                  204 	.db #0x00	; 0
+   009B F3                  205 	.db #0xF3	; 243
+   009C 51                  206 	.db #0x51	; 81	'Q'
+   009D F3                  207 	.db #0xF3	; 243
+   009E F3                  208 	.db #0xF3	; 243
+   009F A2                  209 	.db #0xA2	; 162
+   00A0                     210 _pre_tileset_kcpc_05:
+   00A0 F3                  211 	.db #0xF3	; 243
+   00A1 00                  212 	.db #0x00	; 0
+   00A2 A2                  213 	.db #0xA2	; 162
+   00A3 00                  214 	.db #0x00	; 0
+   00A4 00                  215 	.db #0x00	; 0
+   00A5 51                  216 	.db #0x51	; 81	'Q'
+   00A6 00                  217 	.db #0x00	; 0
+   00A7 F3                  218 	.db #0xF3	; 243
+   00A8                     219 _pre_tileset_kcpc_06:
+   00A8 51                  220 	.db #0x51	; 81	'Q'
+   00A9 F3                  221 	.db #0xF3	; 243
+   00AA F3                  222 	.db #0xF3	; 243
+   00AB A2                  223 	.db #0xA2	; 162
+   00AC F3                  224 	.db #0xF3	; 243
+   00AD 00                  225 	.db #0x00	; 0
+   00AE A2                  226 	.db #0xA2	; 162
+   00AF 00                  227 	.db #0x00	; 0
+   00B0                     228 _pre_tileset_kcpc_07:
+   00B0 00                  229 	.db #0x00	; 0
+   00B1 55                  230 	.db #0x55	; 85	'U'
+   00B2 00                  231 	.db #0x00	; 0
+   00B3 F3                  232 	.db #0xF3	; 243
+   00B4 51                  233 	.db #0x51	; 81	'Q'
+   00B5 F3                  234 	.db #0xF3	; 243
+   00B6 F3                  235 	.db #0xF3	; 243
+   00B7 F7                  236 	.db #0xF7	; 247
+   00B8                     237 _pre_tileset_kcpc_08:
+   00B8 44                  238 	.db #0x44	; 68	'D'
+   00B9 EC                  239 	.db #0xEC	; 236
+   00BA EC                  240 	.db #0xEC	; 236
+   00BB CC                  241 	.db #0xCC	; 204
+   00BC CC                  242 	.db #0xCC	; 204
+   00BD EC                  243 	.db #0xEC	; 236
+   00BE D9                  244 	.db #0xD9	; 217
+   00BF BF                  245 	.db #0xBF	; 191
+   00C0                     246 _pre_tileset_kcpc_09:
+   00C0 CC                  247 	.db #0xCC	; 204
+   00C1 88                  248 	.db #0x88	; 136
+   00C2 DC                  249 	.db #0xDC	; 220
+   00C3 DC                  250 	.db #0xDC	; 220
+   00C4 CC                  251 	.db #0xCC	; 204
+   00C5 CC                  252 	.db #0xCC	; 204
+   00C6 7F                  253 	.db #0x7F	; 127
+   00C7 E6                  254 	.db #0xE6	; 230
+   00C8                     255 _pre_tileset_kcpc_10:
+   00C8 03                  256 	.db #0x03	; 3
+   00C9 03                  257 	.db #0x03	; 3
+   00CA 03                  258 	.db #0x03	; 3
+   00CB 03                  259 	.db #0x03	; 3
+   00CC 03                  260 	.db #0x03	; 3
+   00CD 03                  261 	.db #0x03	; 3
+   00CE 03                  262 	.db #0x03	; 3
+   00CF 03                  263 	.db #0x03	; 3
+   00D0                     264 _pre_tileset_kcpc_11:
+   00D0 03                  265 	.db #0x03	; 3
+   00D1 FF                  266 	.db #0xFF	; 255
+   00D2 03                  267 	.db #0x03	; 3
+   00D3 FF                  268 	.db #0xFF	; 255
+   00D4 03                  269 	.db #0x03	; 3
+   00D5 FF                  270 	.db #0xFF	; 255
+   00D6 03                  271 	.db #0x03	; 3
+   00D7 FF                  272 	.db #0xFF	; 255
+   00D8                     273 _pre_tileset_kcpc_12:
+   00D8 03                  274 	.db #0x03	; 3
+   00D9 03                  275 	.db #0x03	; 3
+   00DA 03                  276 	.db #0x03	; 3
+   00DB 03                  277 	.db #0x03	; 3
+   00DC 03                  278 	.db #0x03	; 3
+   00DD 03                  279 	.db #0x03	; 3
+   00DE 03                  280 	.db #0x03	; 3
+   00DF 03                  281 	.db #0x03	; 3
+   00E0                     282 _pre_tileset_kcpc_13:
+   00E0 CF                  283 	.db #0xCF	; 207
+   00E1 CF                  284 	.db #0xCF	; 207
+   00E2 8B                  285 	.db #0x8B	; 139
+   00E3 8B                  286 	.db #0x8B	; 139
+   00E4 CF                  287 	.db #0xCF	; 207
+   00E5 CF                  288 	.db #0xCF	; 207
+   00E6 47                  289 	.db #0x47	; 71	'G'
+   00E7 47                  290 	.db #0x47	; 71	'G'
+   00E8                     291 _pre_tileset_kcpc_14:
+   00E8 30                  292 	.db #0x30	; 48	'0'
+   00E9 30                  293 	.db #0x30	; 48	'0'
+   00EA 21                  294 	.db #0x21	; 33
+   00EB 21                  295 	.db #0x21	; 33
+   00EC 30                  296 	.db #0x30	; 48	'0'
+   00ED 30                  297 	.db #0x30	; 48	'0'
+   00EE 12                  298 	.db #0x12	; 18
+   00EF 12                  299 	.db #0x12	; 18
+   00F0                     300 _pre_tileset_kcpc_15:
+   00F0 03                  301 	.db #0x03	; 3
+   00F1 03                  302 	.db #0x03	; 3
+   00F2 02                  303 	.db #0x02	; 2
+   00F3 02                  304 	.db #0x02	; 2
+   00F4 03                  305 	.db #0x03	; 3
+   00F5 03                  306 	.db #0x03	; 3
+   00F6 01                  307 	.db #0x01	; 1
+   00F7 01                  308 	.db #0x01	; 1
+   00F8                     309 _pre_tileset_kcpc_16:
+   00F8 30                  310 	.db #0x30	; 48	'0'
+   00F9 30                  311 	.db #0x30	; 48	'0'
+   00FA 60                  312 	.db #0x60	; 96
+   00FB 90                  313 	.db #0x90	; 144
+   00FC 60                  314 	.db #0x60	; 96
+   00FD 90                  315 	.db #0x90	; 144
+   00FE 30                  316 	.db #0x30	; 48	'0'
+   00FF 30                  317 	.db #0x30	; 48	'0'
+   0100                     318 _pre_tileset_kcpc_17:
+   0100 C0                  319 	.db #0xC0	; 192
+   0101 C0                  320 	.db #0xC0	; 192
+   0102 30                  321 	.db #0x30	; 48	'0'
+   0103 30                  322 	.db #0x30	; 48	'0'
+   0104 30                  323 	.db #0x30	; 48	'0'
+   0105 30                  324 	.db #0x30	; 48	'0'
+   0106 C0                  325 	.db #0xC0	; 192
+   0107 C0                  326 	.db #0xC0	; 192
+   0108                     327 _pre_tileset_kcpc_18:
+   0108 D9                  328 	.db #0xD9	; 217
+   0109 B5                  329 	.db #0xB5	; 181
+   010A F3                  330 	.db #0xF3	; 243
+   010B B7                  331 	.db #0xB7	; 183
+   010C 3F                  332 	.db #0x3F	; 63
+   010D 6E                  333 	.db #0x6E	; 110	'n'
+   010E 15                  334 	.db #0x15	; 21
+   010F 3F                  335 	.db #0x3F	; 63
+   0110                     336 _pre_tileset_kcpc_19:
+   0110 7A                  337 	.db #0x7A	; 122	'z'
+   0111 E6                  338 	.db #0xE6	; 230
+   0112 7B                  339 	.db #0x7B	; 123
+   0113 F3                  340 	.db #0xF3	; 243
+   0114 9D                  341 	.db #0x9D	; 157
+   0115 3F                  342 	.db #0x3F	; 63
+   0116 3F                  343 	.db #0x3F	; 63
+   0117 2A                  344 	.db #0x2A	; 42
+   0118                     345 _pre_tileset_kcpc_20:
+   0118 03                  346 	.db #0x03	; 3
+   0119 03                  347 	.db #0x03	; 3
+   011A 03                  348 	.db #0x03	; 3
+   011B 03                  349 	.db #0x03	; 3
+   011C 03                  350 	.db #0x03	; 3
+   011D 03                  351 	.db #0x03	; 3
+   011E 81                  352 	.db #0x81	; 129
+   011F 03                  353 	.db #0x03	; 3
+   0120                     354 _pre_tileset_kcpc_21:
+   0120 03                  355 	.db #0x03	; 3
+   0121 FF                  356 	.db #0xFF	; 255
+   0122 03                  357 	.db #0x03	; 3
+   0123 FF                  358 	.db #0xFF	; 255
+   0124 03                  359 	.db #0x03	; 3
+   0125 57                  360 	.db #0x57	; 87	'W'
+   0126 03                  361 	.db #0x03	; 3
+   0127 42                  362 	.db #0x42	; 66	'B'
+   0128                     363 _pre_tileset_kcpc_22:
+   0128 03                  364 	.db #0x03	; 3
+   0129 03                  365 	.db #0x03	; 3
+   012A 03                  366 	.db #0x03	; 3
+   012B 03                  367 	.db #0x03	; 3
+   012C 03                  368 	.db #0x03	; 3
+   012D 03                  369 	.db #0x03	; 3
+   012E 03                  370 	.db #0x03	; 3
+   012F 03                  371 	.db #0x03	; 3
+   0130                     372 _pre_tileset_kcpc_23:
+   0130 C0                  373 	.db #0xC0	; 192
+   0131 C0                  374 	.db #0xC0	; 192
+   0132 C0                  375 	.db #0xC0	; 192
+   0133 C0                  376 	.db #0xC0	; 192
+   0134 C0                  377 	.db #0xC0	; 192
+   0135 C0                  378 	.db #0xC0	; 192
+   0136 C0                  379 	.db #0xC0	; 192
+   0137 C0                  380 	.db #0xC0	; 192
+   0138                     381 _pre_tileset_kcpc_24:
+   0138 00                  382 	.db #0x00	; 0
+   0139 00                  383 	.db #0x00	; 0
+   013A 00                  384 	.db #0x00	; 0
+   013B 00                  385 	.db #0x00	; 0
+   013C 00                  386 	.db #0x00	; 0
+   013D 00                  387 	.db #0x00	; 0
+   013E 00                  388 	.db #0x00	; 0
+   013F 00                  389 	.db #0x00	; 0
+   0140                     390 _pre_tileset_kcpc_25:
+   0140 C0                  391 	.db #0xC0	; 192
+   0141 C0                  392 	.db #0xC0	; 192
+   0142 30                  393 	.db #0x30	; 48	'0'
+   0143 30                  394 	.db #0x30	; 48	'0'
+   0144 30                  395 	.db #0x30	; 48	'0'
+   0145 30                  396 	.db #0x30	; 48	'0'
+   0146 90                  397 	.db #0x90	; 144
+   0147 90                  398 	.db #0x90	; 144
+   0148                     399 _pre_tileset_kcpc_26:
+   0148 C0                  400 	.db #0xC0	; 192
+   0149 C0                  401 	.db #0xC0	; 192
+   014A CF                  402 	.db #0xCF	; 207
+   014B CF                  403 	.db #0xCF	; 207
+   014C CF                  404 	.db #0xCF	; 207
+   014D CF                  405 	.db #0xCF	; 207
+   014E C0                  406 	.db #0xC0	; 192
+   014F C0                  407 	.db #0xC0	; 192
+   0150                     408 _pre_tileset_kcpc_27:
+   0150 C0                  409 	.db #0xC0	; 192
+   0151 C0                  410 	.db #0xC0	; 192
+   0152 CF                  411 	.db #0xCF	; 207
+   0153 CF                  412 	.db #0xCF	; 207
+   0154 CF                  413 	.db #0xCF	; 207
+   0155 CF                  414 	.db #0xCF	; 207
+   0156 C5                  415 	.db #0xC5	; 197
+   0157 C5                  416 	.db #0xC5	; 197
+   0158                     417 _pre_tileset_kcpc_28:
+   0158 00                  418 	.db #0x00	; 0
+   0159 C3                  419 	.db #0xC3	; 195
+   015A 41                  420 	.db #0x41	; 65	'A'
+   015B C3                  421 	.db #0xC3	; 195
+   015C 41                  422 	.db #0x41	; 65	'A'
+   015D C3                  423 	.db #0xC3	; 195
+   015E 41                  424 	.db #0x41	; 65	'A'
+   015F D7                  425 	.db #0xD7	; 215
+   0160                     426 _pre_tileset_kcpc_29:
+   0160 C3                  427 	.db #0xC3	; 195
+   0161 82                  428 	.db #0x82	; 130
+   0162 C3                  429 	.db #0xC3	; 195
+   0163 C3                  430 	.db #0xC3	; 195
+   0164 6B                  431 	.db #0x6B	; 107	'k'
+   0165 C3                  432 	.db #0xC3	; 195
+   0166 7F                  433 	.db #0x7F	; 127
+   0167 C3                  434 	.db #0xC3	; 195
+   0168                     435 _pre_tileset_kcpc_30:
+   0168 03                  436 	.db #0x03	; 3
+   0169 03                  437 	.db #0x03	; 3
+   016A 12                  438 	.db #0x12	; 18
+   016B 12                  439 	.db #0x12	; 18
+   016C 12                  440 	.db #0x12	; 18
+   016D 12                  441 	.db #0x12	; 18
+   016E 53                  442 	.db #0x53	; 83	'S'
+   016F 53                  443 	.db #0x53	; 83	'S'
+   0170                     444 _pre_tileset_kcpc_31:
+   0170 03                  445 	.db #0x03	; 3
+   0171 03                  446 	.db #0x03	; 3
+   0172 12                  447 	.db #0x12	; 18
+   0173 12                  448 	.db #0x12	; 18
+   0174 12                  449 	.db #0x12	; 18
+   0175 12                  450 	.db #0x12	; 18
+   0176 53                  451 	.db #0x53	; 83	'S'
+   0177 53                  452 	.db #0x53	; 83	'S'
+   0178                     453 _pre_tileset_kcpc_32:
+   0178 CF                  454 	.db #0xCF	; 207
+   0179 CF                  455 	.db #0xCF	; 207
+   017A CA                  456 	.db #0xCA	; 202
+   017B C5                  457 	.db #0xC5	; 197
+   017C CA                  458 	.db #0xCA	; 202
+   017D C5                  459 	.db #0xC5	; 197
+   017E CF                  460 	.db #0xCF	; 207
+   017F CF                  461 	.db #0xCF	; 207
+   0180                     462 _pre_tileset_kcpc_33:
+   0180 03                  463 	.db #0x03	; 3
+   0181 03                  464 	.db #0x03	; 3
+   0182 12                  465 	.db #0x12	; 18
+   0183 03                  466 	.db #0x03	; 3
+   0184 12                  467 	.db #0x12	; 18
+   0185 03                  468 	.db #0x03	; 3
+   0186 53                  469 	.db #0x53	; 83	'S'
+   0187 03                  470 	.db #0x03	; 3
+   0188                     471 _pre_tileset_kcpc_34:
+   0188 03                  472 	.db #0x03	; 3
+   0189 03                  473 	.db #0x03	; 3
+   018A 03                  474 	.db #0x03	; 3
+   018B 03                  475 	.db #0x03	; 3
+   018C 03                  476 	.db #0x03	; 3
+   018D 03                  477 	.db #0x03	; 3
+   018E 03                  478 	.db #0x03	; 3
+   018F 03                  479 	.db #0x03	; 3
+   0190                     480 _pre_tileset_kcpc_35:
+   0190 03                  481 	.db #0x03	; 3
+   0191 03                  482 	.db #0x03	; 3
+   0192 03                  483 	.db #0x03	; 3
+   0193 03                  484 	.db #0x03	; 3
+   0194 03                  485 	.db #0x03	; 3
+   0195 03                  486 	.db #0x03	; 3
+   0196 03                  487 	.db #0x03	; 3
+   0197 03                  488 	.db #0x03	; 3
+   0198                     489 _pre_tileset_kcpc_36:
+   0198 54                  490 	.db #0x54	; 84	'T'
+   0199 A8                  491 	.db #0xA8	; 168
+   019A FC                  492 	.db #0xFC	; 252
+   019B FC                  493 	.db #0xFC	; 252
+   019C FC                  494 	.db #0xFC	; 252
+   019D F4                  495 	.db #0xF4	; 244
+   019E F8                  496 	.db #0xF8	; 248
+   019F FC                  497 	.db #0xFC	; 252
+   01A0                     498 _pre_tileset_kcpc_37:
+   01A0 FC                  499 	.db #0xFC	; 252
+   01A1 F4                  500 	.db #0xF4	; 244
+   01A2 F8                  501 	.db #0xF8	; 248
+   01A3 FC                  502 	.db #0xFC	; 252
+   01A4 FC                  503 	.db #0xFC	; 252
+   01A5 F4                  504 	.db #0xF4	; 244
+   01A6 FC                  505 	.db #0xFC	; 252
+   01A7 FC                  506 	.db #0xFC	; 252
+   01A8                     507 _pre_tileset_kcpc_38:
+   01A8 41                  508 	.db #0x41	; 65	'A'
+   01A9 2E                  509 	.db #0x2E	; 46
+   01AA 41                  510 	.db #0x41	; 65	'A'
+   01AB 3F                  511 	.db #0x3F	; 63
+   01AC C3                  512 	.db #0xC3	; 195
+   01AD 3F                  513 	.db #0x3F	; 63
+   01AE C3                  514 	.db #0xC3	; 195
+   01AF D3                  515 	.db #0xD3	; 211
+   01B0                     516 _pre_tileset_kcpc_39:
+   01B0 2E                  517 	.db #0x2E	; 46
+   01B1 6B                  518 	.db #0x6B	; 107	'k'
+   01B2 3F                  519 	.db #0x3F	; 63
+   01B3 6B                  520 	.db #0x6B	; 107	'k'
+   01B4 35                  521 	.db #0x35	; 53	'5'
+   01B5 6B                  522 	.db #0x6B	; 107	'k'
+   01B6 F3                  523 	.db #0xF3	; 243
+   01B7 C3                  524 	.db #0xC3	; 195
+   01B8                     525 _pre_tileset_kcpc_40:
+   01B8 DA                  526 	.db #0xDA	; 218
+   01B9 E5                  527 	.db #0xE5	; 229
+   01BA DA                  528 	.db #0xDA	; 218
+   01BB E5                  529 	.db #0xE5	; 229
+   01BC DA                  530 	.db #0xDA	; 218
+   01BD CA                  531 	.db #0xCA	; 202
+   01BE CF                  532 	.db #0xCF	; 207
+   01BF C0                  533 	.db #0xC0	; 192
+   01C0                     534 _pre_tileset_kcpc_41:
+   01C0 CF                  535 	.db #0xCF	; 207
+   01C1 CF                  536 	.db #0xCF	; 207
+   01C2 DA                  537 	.db #0xDA	; 218
+   01C3 E5                  538 	.db #0xE5	; 229
+   01C4 DA                  539 	.db #0xDA	; 218
+   01C5 E5                  540 	.db #0xE5	; 229
+   01C6 DA                  541 	.db #0xDA	; 218
+   01C7 E5                  542 	.db #0xE5	; 229
+   01C8                     543 _pre_tileset_kcpc_42:
+   01C8 DA                  544 	.db #0xDA	; 218
+   01C9 E5                  545 	.db #0xE5	; 229
+   01CA DA                  546 	.db #0xDA	; 218
+   01CB E5                  547 	.db #0xE5	; 229
+   01CC DA                  548 	.db #0xDA	; 218
+   01CD E5                  549 	.db #0xE5	; 229
+   01CE DA                  550 	.db #0xDA	; 218
+   01CF CF                  551 	.db #0xCF	; 207
+   01D0                     552 _pre_tileset_kcpc_43:
+   01D0 CF                  553 	.db #0xCF	; 207
+   01D1 C0                  554 	.db #0xC0	; 192
+   01D2 DA                  555 	.db #0xDA	; 218
+   01D3 CA                  556 	.db #0xCA	; 202
+   01D4 DA                  557 	.db #0xDA	; 218
+   01D5 E5                  558 	.db #0xE5	; 229
+   01D6 DA                  559 	.db #0xDA	; 218
+   01D7 E5                  560 	.db #0xE5	; 229
+   01D8                     561 _pre_tileset_kcpc_44:
+   01D8 C0                  562 	.db #0xC0	; 192
+   01D9 30                  563 	.db #0x30	; 48	'0'
+   01DA 90                  564 	.db #0x90	; 144
+   01DB 98                  565 	.db #0x98	; 152
+   01DC 64                  566 	.db #0x64	; 100	'd'
+   01DD 98                  567 	.db #0x98	; 152
+   01DE 64                  568 	.db #0x64	; 100	'd'
+   01DF 98                  569 	.db #0x98	; 152
+   01E0                     570 _pre_tileset_kcpc_45:
+   01E0 30                  571 	.db #0x30	; 48	'0'
+   01E1 98                  572 	.db #0x98	; 152
+   01E2 64                  573 	.db #0x64	; 100	'd'
+   01E3 98                  574 	.db #0x98	; 152
+   01E4 64                  575 	.db #0x64	; 100	'd'
+   01E5 98                  576 	.db #0x98	; 152
+   01E6 64                  577 	.db #0x64	; 100	'd'
+   01E7 98                  578 	.db #0x98	; 152
+   01E8                     579 _pre_tileset_kcpc_46:
+   01E8 64                  580 	.db #0x64	; 100	'd'
+   01E9 98                  581 	.db #0x98	; 152
+   01EA 64                  582 	.db #0x64	; 100	'd'
+   01EB 98                  583 	.db #0x98	; 152
+   01EC 64                  584 	.db #0x64	; 100	'd'
+   01ED 98                  585 	.db #0x98	; 152
+   01EE 30                  586 	.db #0x30	; 48	'0'
+   01EF 30                  587 	.db #0x30	; 48	'0'
+   01F0                     588 _pre_tileset_kcpc_47:
+   01F0 64                  589 	.db #0x64	; 100	'd'
+   01F1 98                  590 	.db #0x98	; 152
+   01F2 64                  591 	.db #0x64	; 100	'd'
+   01F3 98                  592 	.db #0x98	; 152
+   01F4 90                  593 	.db #0x90	; 144
+   01F5 98                  594 	.db #0x98	; 152
+   01F6 C0                  595 	.db #0xC0	; 192
+   01F7 30                  596 	.db #0x30	; 48	'0'
+   01F8                     597 _pre_tileset_kcpc_48:
+   01F8 14                  598 	.db #0x14	; 20
+   01F9 3C                  599 	.db #0x3C	; 60
+   01FA 3C                  600 	.db #0x3C	; 60
+   01FB 3C                  601 	.db #0x3C	; 60
+   01FC 7D                  602 	.db #0x7D	; 125
+   01FD 36                  603 	.db #0x36	; 54	'6'
+   01FE 7D                  604 	.db #0x7D	; 125
+   01FF FF                  605 	.db #0xFF	; 255
+   0200                     606 _pre_tileset_kcpc_49:
+   0200 3C                  607 	.db #0x3C	; 60
+   0201 28                  608 	.db #0x28	; 40
+   0202 33                  609 	.db #0x33	; 51	'3'
+   0203 3C                  610 	.db #0x3C	; 60
+   0204 FF                  611 	.db #0xFF	; 255
+   0205 BE                  612 	.db #0xBE	; 190
+   0206 FF                  613 	.db #0xFF	; 255
+   0207 BE                  614 	.db #0xBE	; 190
+   0208                     615 _pre_tileset_kcpc_50:
+   0208 39                  616 	.db #0x39	; 57	'9'
+   0209 FF                  617 	.db #0xFF	; 255
+   020A 3C                  618 	.db #0x3C	; 60
+   020B FF                  619 	.db #0xFF	; 255
+   020C 39                  620 	.db #0x39	; 57	'9'
+   020D FF                  621 	.db #0xFF	; 255
+   020E 14                  622 	.db #0x14	; 20
+   020F 3C                  623 	.db #0x3C	; 60
+   0210                     624 _pre_tileset_kcpc_51:
+   0210 FF                  625 	.db #0xFF	; 255
+   0211 3C                  626 	.db #0x3C	; 60
+   0212 FF                  627 	.db #0xFF	; 255
+   0213 3C                  628 	.db #0x3C	; 60
+   0214 36                  629 	.db #0x36	; 54	'6'
+   0215 3C                  630 	.db #0x3C	; 60
+   0216 3C                  631 	.db #0x3C	; 60
+   0217 28                  632 	.db #0x28	; 40
+   0218                     633 _pre_tileset_kcpc_52:
+   0218 FF                  634 	.db #0xFF	; 255
+   0219 FF                  635 	.db #0xFF	; 255
+   021A FF                  636 	.db #0xFF	; 255
+   021B FF                  637 	.db #0xFF	; 255
+   021C FF                  638 	.db #0xFF	; 255
+   021D FF                  639 	.db #0xFF	; 255
+   021E FF                  640 	.db #0xFF	; 255
+   021F FF                  641 	.db #0xFF	; 255
+   0220                     642 _pre_tileset_kcpc_53:
+   0220 FF                  643 	.db #0xFF	; 255
+   0221 FF                  644 	.db #0xFF	; 255
+   0222 FF                  645 	.db #0xFF	; 255
+   0223 FF                  646 	.db #0xFF	; 255
+   0224 FF                  647 	.db #0xFF	; 255
+   0225 FF                  648 	.db #0xFF	; 255
+   0226 FF                  649 	.db #0xFF	; 255
+   0227 FF                  650 	.db #0xFF	; 255
+   0228                     651 _pre_tileset_kcpc_54:
+   0228 FF                  652 	.db #0xFF	; 255
+   0229 FF                  653 	.db #0xFF	; 255
+   022A FF                  654 	.db #0xFF	; 255
+   022B FF                  655 	.db #0xFF	; 255
+   022C FF                  656 	.db #0xFF	; 255
+   022D FF                  657 	.db #0xFF	; 255
+   022E FF                  658 	.db #0xFF	; 255
+   022F FF                  659 	.db #0xFF	; 255
+   0230                     660 _pre_tileset_kcpc_55:
+   0230 FF                  661 	.db #0xFF	; 255
+   0231 FF                  662 	.db #0xFF	; 255
+   0232 FF                  663 	.db #0xFF	; 255
+   0233 FF                  664 	.db #0xFF	; 255
+   0234 FF                  665 	.db #0xFF	; 255
+   0235 FF                  666 	.db #0xFF	; 255
+   0236 FF                  667 	.db #0xFF	; 255
+   0237 FF                  668 	.db #0xFF	; 255
+   0238                     669 _pre_tileset_kcpc_56:
+   0238 FF                  670 	.db #0xFF	; 255
+   0239 FF                  671 	.db #0xFF	; 255
+   023A FF                  672 	.db #0xFF	; 255
+   023B FF                  673 	.db #0xFF	; 255
+   023C FF                  674 	.db #0xFF	; 255
+   023D FF                  675 	.db #0xFF	; 255
+   023E FF                  676 	.db #0xFF	; 255
+   023F FF                  677 	.db #0xFF	; 255
+   0240                     678 _pre_tileset_kcpc_57:
+   0240 FF                  679 	.db #0xFF	; 255
+   0241 FF                  680 	.db #0xFF	; 255
+   0242 FF                  681 	.db #0xFF	; 255
+   0243 FF                  682 	.db #0xFF	; 255
+   0244 FF                  683 	.db #0xFF	; 255
+   0245 FF                  684 	.db #0xFF	; 255
+   0246 FF                  685 	.db #0xFF	; 255
+   0247 FF                  686 	.db #0xFF	; 255
+   0248                     687 _pre_tileset_kcpc_58:
+   0248 FF                  688 	.db #0xFF	; 255
+   0249 FF                  689 	.db #0xFF	; 255
+   024A FF                  690 	.db #0xFF	; 255
+   024B FF                  691 	.db #0xFF	; 255
+   024C FF                  692 	.db #0xFF	; 255
+   024D FF                  693 	.db #0xFF	; 255
+   024E FF                  694 	.db #0xFF	; 255
+   024F FF                  695 	.db #0xFF	; 255
+   0250                     696 _pre_tileset_kcpc_59:
+   0250 FF                  697 	.db #0xFF	; 255
+   0251 FF                  698 	.db #0xFF	; 255
+   0252 FF                  699 	.db #0xFF	; 255
+   0253 FF                  700 	.db #0xFF	; 255
+   0254 FF                  701 	.db #0xFF	; 255
+   0255 FF                  702 	.db #0xFF	; 255
+   0256 FF                  703 	.db #0xFF	; 255
+   0257 FF                  704 	.db #0xFF	; 255
+                            705 	.area _INITIALIZER
+                            706 	.area _CABS (ABS)

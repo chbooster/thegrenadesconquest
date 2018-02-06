@@ -1,0 +1,22 @@
+-mjwx
+-i obj/grenadesconquest.ihx
+-b _CODE = 0x1000
+-b _DATA = 0x0000
+-u
+-k /home/chiri/cpctelera/cpctelera/tools/sdcc-3.5.5/bin/../share/sdcc/lib/z80
+-k /home/chiri/cpctelera/cpctelera/tools/sdcc-3.5.5/share/sdcc/lib/z80
+-l /home/chiri/cpctelera/cpctelera/cpctelera.lib
+-l z80
+obj/160x200.rel
+obj/disparo.rel
+obj/bloque.rel
+obj/tileset_kcpc.rel
+obj/logo.rel
+obj/obdulia_tileset.rel
+obj/jimmy_tileset.rel
+obj/battle.rel
+obj/presentation.rel
+obj/main.rel
+obj/play.rel
+
+-e

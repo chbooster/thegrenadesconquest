@@ -1,0 +1,92 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 1.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  2710 L
+    .__.ABS.                                                    =  0000 G
+    .__.CPU.                                                    =  0000 L
+    .__.H$L.                                                    =  0000 L
+  0 _pre_tileset                                                   0000 GR
+  0 _pre_tileset_kcpc_00                                           0078 GR
+  0 _pre_tileset_kcpc_01                                           0080 GR
+  0 _pre_tileset_kcpc_02                                           0088 GR
+  0 _pre_tileset_kcpc_03                                           0090 GR
+  0 _pre_tileset_kcpc_04                                           0098 GR
+  0 _pre_tileset_kcpc_05                                           00A0 GR
+  0 _pre_tileset_kcpc_06                                           00A8 GR
+  0 _pre_tileset_kcpc_07                                           00B0 GR
+  0 _pre_tileset_kcpc_08                                           00B8 GR
+  0 _pre_tileset_kcpc_09                                           00C0 GR
+  0 _pre_tileset_kcpc_10                                           00C8 GR
+  0 _pre_tileset_kcpc_11                                           00D0 GR
+  0 _pre_tileset_kcpc_12                                           00D8 GR
+  0 _pre_tileset_kcpc_13                                           00E0 GR
+  0 _pre_tileset_kcpc_14                                           00E8 GR
+  0 _pre_tileset_kcpc_15                                           00F0 GR
+  0 _pre_tileset_kcpc_16                                           00F8 GR
+  0 _pre_tileset_kcpc_17                                           0100 GR
+  0 _pre_tileset_kcpc_18                                           0108 GR
+  0 _pre_tileset_kcpc_19                                           0110 GR
+  0 _pre_tileset_kcpc_20                                           0118 GR
+  0 _pre_tileset_kcpc_21                                           0120 GR
+  0 _pre_tileset_kcpc_22                                           0128 GR
+  0 _pre_tileset_kcpc_23                                           0130 GR
+  0 _pre_tileset_kcpc_24                                           0138 GR
+  0 _pre_tileset_kcpc_25                                           0140 GR
+  0 _pre_tileset_kcpc_26                                           0148 GR
+  0 _pre_tileset_kcpc_27                                           0150 GR
+  0 _pre_tileset_kcpc_28                                           0158 GR
+  0 _pre_tileset_kcpc_29                                           0160 GR
+  0 _pre_tileset_kcpc_30                                           0168 GR
+  0 _pre_tileset_kcpc_31                                           0170 GR
+  0 _pre_tileset_kcpc_32                                           0178 GR
+  0 _pre_tileset_kcpc_33                                           0180 GR
+  0 _pre_tileset_kcpc_34                                           0188 GR
+  0 _pre_tileset_kcpc_35                                           0190 GR
+  0 _pre_tileset_kcpc_36                                           0198 GR
+  0 _pre_tileset_kcpc_37                                           01A0 GR
+  0 _pre_tileset_kcpc_38                                           01A8 GR
+  0 _pre_tileset_kcpc_39                                           01B0 GR
+  0 _pre_tileset_kcpc_40                                           01B8 GR
+  0 _pre_tileset_kcpc_41                                           01C0 GR
+  0 _pre_tileset_kcpc_42                                           01C8 GR
+  0 _pre_tileset_kcpc_43                                           01D0 GR
+  0 _pre_tileset_kcpc_44                                           01D8 GR
+  0 _pre_tileset_kcpc_45                                           01E0 GR
+  0 _pre_tileset_kcpc_46                                           01E8 GR
+  0 _pre_tileset_kcpc_47                                           01F0 GR
+  0 _pre_tileset_kcpc_48                                           01F8 GR
+  0 _pre_tileset_kcpc_49                                           0200 GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 2.
+Hexadecimal [16-Bits]
+
+Symbol Table
+
+  0 _pre_tileset_kcpc_50                                           0208 GR
+  0 _pre_tileset_kcpc_51                                           0210 GR
+  0 _pre_tileset_kcpc_52                                           0218 GR
+  0 _pre_tileset_kcpc_53                                           0220 GR
+  0 _pre_tileset_kcpc_54                                           0228 GR
+  0 _pre_tileset_kcpc_55                                           0230 GR
+  0 _pre_tileset_kcpc_56                                           0238 GR
+  0 _pre_tileset_kcpc_57                                           0240 GR
+  0 _pre_tileset_kcpc_58                                           0248 GR
+  0 _pre_tileset_kcpc_59                                           0250 GR
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (Zilog Z80 / Hitachi HD64180), page 3.
+Hexadecimal [16-Bits]
+
+Area Table
+
+   0 _CODE                                      size  258   flags    0
+   1 _DATA                                      size    0   flags    0
+   2 _INITIALIZED                               size    0   flags    0
+   3 _DABS                                      size    0   flags    8
+   4 _HOME                                      size    0   flags    0
+   5 _GSINIT                                    size    0   flags    0
+   6 _GSFINAL                                   size    0   flags    0
+   7 _INITIALIZER                               size    0   flags    0
+   8 _CABS                                      size    0   flags    8
+

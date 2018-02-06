@@ -1,0 +1,27 @@
+CPCTelera: 
+GNU General Public License v3 - http://lronaldo.github.io/cpctelera/files/gpl-license-txt.html
+ronaldo - https://twitter.com/frangallegobr
+Cheesetea - http://www.cheesetea.com/
+Fremos - http://fremos.cheesetea.com/
+ByteRealms - http://www.byterealms.com/
+https://github.com/lronaldo/cpctelera
+-----------------------------------------
+Tiled:
+GNU General Public License v2 - https://github.com/bjorn/tiled/blob/master/LICENSE.GPL 
+Thorbjørn Lindeijer and many other contributors - http://bjorn.lindeijer.nl/
+https://thorbjorn.itch.io/tiled
+-----------------------------------------
+GraphicsGale:
+HUMANBALANCE Ltd
+Freeware software - All Rights Reserved
+https://graphicsgale.com/us/
+-----------------------------------------
+Sublime Text 3:
+Evaluation license - All Rights Reserved
+Jon Skinner
+https://www.sublimetext.com/
+-----------------------------------------
+NetBeans 8: 
+GNU General Public License v2 | CDDL v1 - https://netbeans.org/downloads/licence/8.1/nb81-LICENSE.txt
+Oracle Corporation and/or its affiliates
+https://netbeans.org/downloads/
